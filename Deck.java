@@ -10,9 +10,6 @@ public class Deck {
         int valor = card.valor.length;
         int color = card.color.length;
 
-        //Calculo de la cantidad de la cartas
-        int n = palo*valor*color;
-
         //Inicio del deck
         ArrayList<String> deck = new ArrayList<String>();
         for (int i = 0; i<valor; i++){
