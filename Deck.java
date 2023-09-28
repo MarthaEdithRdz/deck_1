@@ -3,7 +3,6 @@ import java.util.*;
 //Martha Rdz
 public class Deck {
     public static void main(String[] args) {
-        System.out.println("Funciono");
 
         //Creamos las cartas
         Card card = new Card();
